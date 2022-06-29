@@ -7,7 +7,7 @@ public class NumerosPares {
       int[] numbers = new int[5];
       int testNumber = 0;
       
-      for(int i = 0; i < 5; i++){
+      for(int i = 0; i < numbers.length; i++){
           testNumber = scan.nextInt();
           if(testNumber % 2 != 0){
               System.out.println(testNumber + " não pode ser salvo! Trata-se de um número ímpar.");
